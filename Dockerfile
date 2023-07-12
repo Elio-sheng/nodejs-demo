@@ -2,7 +2,7 @@ FROM registry.premom.tech/k8s/node-build:v8
 
 WORKDIR /app
 
-COPY packahe.json /app/
+COPY package.json /app/
 
 RUN npm install
 
